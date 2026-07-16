@@ -60,8 +60,8 @@ bool firstStart=true;
 int requestedVal=0;
 //----------------------------------------wifi
 
-const char *ssid = "DIGI-24-3450";          //Enter your wifi SSID
-const char *password = "qHpZDQ9kUZ";        //Enter your wifi Password
+const char *ssid = "yourSSID";          //Enter your wifi SSID
+const char *password = "yourPassword";        //Enter your wifi Password
 IPAddress local_IP(192, 168, 1, 230);       // a telefonba ezt az ip-t kell beírni
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
